@@ -11,7 +11,7 @@ public class Twodimensionarr {
 		
 		//1st approach
 		
-		/*for(int r=0;r<arr.length;r++)
+		for(int r=0;r<arr.length;r++)
 		{
 			for(int c=0;c<arr[r].length;c++)
 			{
@@ -19,7 +19,7 @@ public class Twodimensionarr {
 			}
 			System.out.println();
 		}
-		*/
+		
 		
 		//2nd approach
 		
