@@ -21,6 +21,7 @@ public class SwapString {
 		System.out.println("------After Swap-----");
 		System.out.println(fst + " " + sec);
 		
+		sc.close();
 	}
 	
 }
