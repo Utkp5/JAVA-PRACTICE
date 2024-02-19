@@ -5,8 +5,7 @@ public class Class_Object_method {
 	int id;
 	String name;
 	long sal;
-	
-	
+		
 	void show()
 	{
 		System.out.println(id + " " + name + " " + sal);
