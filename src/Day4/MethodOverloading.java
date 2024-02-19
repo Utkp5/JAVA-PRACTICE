@@ -7,7 +7,7 @@ public class MethodOverloading {  //same name but with different parameter
 	
 	void sum()
 	{
-		x=10;
+		x=10; 
 		y=20;
 	}
 	
