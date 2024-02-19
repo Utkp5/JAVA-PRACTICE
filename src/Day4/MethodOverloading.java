@@ -1,6 +1,6 @@
 package Day4;
 
-public class MethodOverloading {  //same name but with diff parameter
+public class MethodOverloading {  //same name but with different parameter
 
 	int x,y; //class variable , instance variable
 	double z;
