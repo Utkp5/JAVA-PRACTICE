@@ -11,10 +11,10 @@ public class MethodOverloading {  //same name but with different parameter
 		y=20;
 	}
 	
-	void sum(int a,int b) //local variable so if we create this local var then it will create extra space in memory to
-	{                     // reduce this we use this keyword so that it won't create extra space.   
-		x=a;
-		y=b;
+	void sum(int x,int y) //local variable so if we create this local var then it will create extra space in memory to
+	{                     // reduce this we use 'this' keyword so that it won't create extra space.   
+		this.x=x;
+		this.y=y;
 	}
 	
 	void sum(int a,double b)
@@ -38,7 +38,7 @@ public class MethodOverloading {  //same name but with different parameter
 		
 		MethodOverloading mo = new MethodOverloading();
 		//mo.sum();
-		mo.sum(10,20.7);
+		mo.sum(50,100);
 		mo.display();
 		
 	}
