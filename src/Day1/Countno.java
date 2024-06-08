@@ -11,8 +11,20 @@ public class Countno {
 		long num = sc.nextLong();
 		
 		long findnum;
+		long totaldigits = 0;
 		long temp = num;
 		int even = 0,odd = 0;
+		
+		
+		//Below loop is to count the no. of digits u have entered!
+//		while(temp>0)
+//		{
+//			temp = temp / 10;
+//			totaldigits++;
+//		}
+//		System.out.println(totaldigits);
+		
+		
 		
 		while(temp>0)
 		{
