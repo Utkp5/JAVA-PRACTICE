@@ -11,7 +11,7 @@ public class Countno {
 		long num = sc.nextLong();
 		
 		long findnum;
-		long totaldigits = 0;
+		//long totaldigits = 0;
 		long temp = num;
 		int even = 0,odd = 0;
 		
