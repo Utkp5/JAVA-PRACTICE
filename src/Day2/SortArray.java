@@ -8,7 +8,7 @@ public class SortArray {
 		Scanner sc = new Scanner(System.in);
 		//for this we are taking length static
 		
-		int arr[] = new int[5];
+		Integer arr[] = new Integer[5];
 		int temp =0;
 		
 		System.out.println("Enter the elements in Array : ");
@@ -35,7 +35,18 @@ public class SortArray {
 			System.out.print(newarr+" ");
 		}
 		
-		//there is another method of doing sorting is to do using sort() method
+		//--------there is another method of doing sorting is to do using sort() method below----------
+/*		
+		Arrays.sort(arr); //Array is a class in Java's standard library allowing you to use its methods in your code. 
+		
+		System.out.println("Sorted array in Ascending order: " + Arrays.toString(arr)); //this will do in asce order
+		
+		//To do in desc order below is the code 
+		
+		Arrays.sort(arr, Collections.reverseOrder());
+		System.out.println("Sorted array in Descending order: " + Arrays.toString(arr)); //this will do in desc order
+*/		
+		
 		
 		sc.close();
 		
