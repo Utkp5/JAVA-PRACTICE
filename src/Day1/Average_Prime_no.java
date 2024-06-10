@@ -13,12 +13,12 @@ public class Average_Prime_no {
 		System.out.print("Enter the Number till where u want Prime Numbers : ");
 		int input = sc.nextInt();		
 		
-		int count=0,countprimeno = 0;
+		int countprimeno = 0;
 		float avg = 0, sum = 0;
 		
 		for(int i=2; i<=input; i++)
 		{
-			
+			int count = 0;
 			for(int j=1; j<=input; j++)
 			{
 				
@@ -32,9 +32,8 @@ public class Average_Prime_no {
 			{
 				System.out.print(i+" ");
 				countprimeno++;
+				sum = sum + i;
 			}
-			count=0;
-			sum = sum + i;
 		}
 		avg = sum/countprimeno;
 		System.out.println();
