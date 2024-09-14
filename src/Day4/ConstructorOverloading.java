@@ -32,8 +32,11 @@ public class ConstructorOverloading {
 		
 		ConstructorOverloading co = new ConstructorOverloading();
 		ConstructorOverloading co1 = new ConstructorOverloading(500,100);
+		ConstructorOverloading co2 = new ConstructorOverloading(500,1000.0);
+
 		co.display();
 		co1.display();
+		co2.display();
 		
 		
 	}

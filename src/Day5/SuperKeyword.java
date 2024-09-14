@@ -1,5 +1,9 @@
 package Day5;
 
+//Super keyword basically call the parent methods,varibale all things etc...
+//and if we want to call parent constructor then we have to write Super(); condition at very first
+//if we want any thing from parent along with child thing then we use super keyword  
+
 class Animal {
 
 	String color="white";
@@ -17,7 +21,7 @@ class Dog extends Animal
 	
 	void displayColor()
 	{
-		System.out.println(super.color);
+		System.out.println(super.color); 
 	}
 	
 	void eat()
