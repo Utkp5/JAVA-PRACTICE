@@ -37,6 +37,7 @@ public class Find_missing_No_inArray {
 			}
 		}
 
+		sc.close();
 		
 		
 	}

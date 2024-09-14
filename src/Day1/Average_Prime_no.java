@@ -42,6 +42,8 @@ public class Average_Prime_no {
 		System.out.print("Average of Prime No. is :"+avg);
 		
 		
+
+		sc.close();
 		
 		
 		

@@ -1,6 +1,6 @@
 package Day5;
 
-/*                       Same method name with same parameter, functionality will get changed like within the {} whatever we write that will get changed */
+/*Same method name with same parameter, functionality will get changed like within the {} whatever we write that will get changed */
 
 class Bank
 {

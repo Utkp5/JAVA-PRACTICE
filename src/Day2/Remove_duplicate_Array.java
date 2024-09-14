@@ -6,6 +6,7 @@ public class Remove_duplicate_Array {
 
 	//code to remove duplicate element from an array. ---pending
 	
+	@SuppressWarnings("null")
 	public static void main(String a[])
 	{
 		
@@ -31,7 +32,7 @@ public class Remove_duplicate_Array {
 				 }
 			}
 		}
-		
+		sc.close();
 	}
 	
 	

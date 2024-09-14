@@ -40,7 +40,7 @@ public class Character_occurrence {
 		
 		
 		
-		
+		sc.close();
 
 		
 		
