@@ -7,10 +7,10 @@ public class StringReverse {
 		
 		Scanner sc = new Scanner(System.in);
 		//char newst;
-		String rev="";
+		//String rev="";
 		
 		System.out.print("Enter Any String : ");
-		String st = sc.nextLine();
+		//String st = sc.nextLine();
 		
 		//===========Method1 - length(), charAt()
 		
