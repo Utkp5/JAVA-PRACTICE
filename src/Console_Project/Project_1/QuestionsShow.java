@@ -40,6 +40,7 @@ class QuestionsShow {
 
     }
 
+    
     public void playerScore()
     {
         int score = 0;
