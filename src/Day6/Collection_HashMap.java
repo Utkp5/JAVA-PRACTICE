@@ -20,7 +20,8 @@ public class Collection_HashMap {
         hm.put(3, "evening");
 
         System.out.println(hm);
-
+        
+        System.out.println(hm.keySet());
 
 
         System.out.println(hm.get(42));
@@ -28,6 +29,7 @@ public class Collection_HashMap {
         System.out.println(hm.get(42));
         Set sn = hm.entrySet();
         Iterator it = sn.iterator();
+
         //hashtable -pass table set collections 
         while(it.hasNext())
         {
@@ -36,7 +38,9 @@ public class Collection_HashMap {
         System.out.println(mp.getKey());
         System.out.println(mp.getValue());
 
-    }
+        }
+
+        
 
 
     }
