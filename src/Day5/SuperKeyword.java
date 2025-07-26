@@ -3,6 +3,7 @@ package Day5;
 //Super keyword basically call the parent methods,varibale all things etc...
 //and if we want to call parent constructor then we have to write Super(); condition at very first
 //if we want any thing from parent along with child thing then we use super keyword  
+//Super keyword is basically used to invoke the immediate parent class methods,varibale &constructor
 
 class Animal {
 
