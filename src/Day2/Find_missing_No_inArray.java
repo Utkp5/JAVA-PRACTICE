@@ -15,7 +15,7 @@ public class Find_missing_No_inArray {
 	   
 	 */
 	
-	public static void name(String a[]) {
+	public static void main(String a[]) {
 		
 		Scanner sc = new Scanner(System.in);
 		
